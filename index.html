@@ -13,35 +13,36 @@
             </div> 
             <table>
                 <tr>
-                    <td colspan="2"> <input type="button" class="btn-CE" value="CE"> </td>
-                    <td> <input type="button" class="btn-C" value="C"> </td>
-                    <td> <input type="button" class="btn-op" value="/"> </td>    
+                    <td colspan="2"> <input type="button" class="btn-CE" value="CE"  onclick="apagarTudo()"> </td>
+                    <td> <input type="button" class="btn-C" value="C"  onclick="apagarUm()"> </td>
+                    <td> <input type="button" class="btn-op" value="/" onclick="inserirValor('/')"> </td>    
                 </tr>
                 <tr>
-                    <td> <input type="button" class="btn" value="7"> </td>
-                    <td> <input type="button" class="btn" value="8"> </td>
-                    <td> <input type="button" class="btn" value="9"> </td>
-                    <td> <input type="button" class="btn-op" value="*"> </td>
+                    <td> <input type="button" class="btn" value="7" onclick="inserirValor(7)"> </td>
+                    <td> <input type="button" class="btn" value="8" onclick="inserirValor(8)"> </td>
+                    <td> <input type="button" class="btn" value="9" onclick="inserirValor(9)"> </td>
+                    <td> <input type="button" class="btn-op" value="*" onclick="inserirValor('*')"> </td>
                 </tr>
                 <tr>
-                    <td> <input type="button" class="btn" value="4"> </td>
-                    <td> <input type="button" class="btn" value="5"> </td>
-                    <td> <input type="button" class="btn" value="6"> </td>
-                    <td> <input type="button" class="btn-op" value="-"> </td>
+                    <td> <input type="button" class="btn" value="4" onclick="inserirValor(4)"> </td>
+                    <td> <input type="button" class="btn" value="5" onclick="inserirValor(5)"> </td>
+                    <td> <input type="button" class="btn" value="6" onclick="inserirValor(6)"> </td>
+                    <td> <input type="button" class="btn-op" value="-" onclick="inserirValor('-')"> </td>
                 </tr>
                 <tr>
-                    <td> <input type="button" class="btn" value="1"> </td>
-                    <td> <input type="button" class="btn" value="2"> </td>
-                    <td> <input type="button" class="btn" value="3"> </td>
-                    <td> <input type="button" class="btn-op" value="+"> </td>
+                    <td> <input type="button" class="btn" value="1" onclick="inserirValor(1)"> </td>
+                    <td> <input type="button" class="btn" value="2" onclick="inserirValor(2)"> </td>
+                    <td> <input type="button" class="btn" value="3" onclick="inserirValor(3)"> </td>
+                    <td> <input type="button" class="btn-op" value="+" onclick="inserirValor(+)"> </td>
                 </tr>
                 <tr>
-                    <td> <input type="button" class="btn" value="."> </td>
-                    <td> <input type="button" class="btn" value="0"> </td>
-                    <td colspan="2"> <input type="button" class="btn-igual" value="="> </td>
+                    <td> <input type="button" class="btn" value="." onclick="inserirValor('.')"> </td>
+                    <td> <input type="button" class="btn" value="0" onclick="inserirValor(0)"> </td>
+                    <td colspan="2"> <input type="button" class="btn-igual" value="=" onclick="igual()"> </td>
                 </tr>
             </table>
         </div>
     </div>
+    <script src="calculadora.js"></script>
 </body>
 </html>
